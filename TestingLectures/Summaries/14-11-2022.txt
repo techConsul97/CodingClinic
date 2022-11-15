@@ -1,0 +1,18 @@
+Summary for today 14/11/2022:
+
+Started by explaining what tests are.
+A test is a validation of a code a developer writes. (on short)
+Types of testing: - unit testing; testing of each function, and each condition branch a function has. (each "else" of a conditional statement needs to be validated via testing)
+	          - integration testing; tests that validate the interaction of multiple modules (say we want to test the ViewModel, and we mock the api, then we also test the integration of repository, as it is between them)
+		  - end to end testing; a test that mimics user interaction and tests the logic, such as when user creates a new note, we test if the note was inserted into db, and also on the screen as a new note
+
+
+For unit testing, we can use test doubles, which are: - Mock, using mockito or mockK
+						      - Fake, such as creating a fake repository
+						      - Spy
+						      - Stub
+  						      - Dummy.
+
+My own opinion, stick with just Mock and Fake.
+
+When writing code, try as much as you can to make functions respect Single Responsibility Priciple, as it will help with testing. Using try/catch when dealing with Network Calls, use a wrapper class as shown in Marko's program(Resource.kt) 

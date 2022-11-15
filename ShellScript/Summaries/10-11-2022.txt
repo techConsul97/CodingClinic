@@ -1,0 +1,16 @@
+Summary for today(10/11/2022):
+
+   - today's topic: Bash Scripting
+      What is it: Bash is a command interpreter, built over Unix, as for better and clearer use them. Appeared in 1989
+   - useful commands of bash: 
+	-ls : list directories and files from inside of a folder. Use options with this command, such as -l, will display more info about files, -a, show hidded files.
+	- pwd: Prints the absolute path of the directoty you are in 
+	- cd: Use to navigate from a folder to a another folder. You can use cd .., which will get you up a folder, also cd ../.. to navigate 2 folders up and so on
+	- mkdir: Create a folder
+	- rmdir: Remove a folder
+	- nano: It is a text editor, use it like this: nano <file>. IF the file is already created, it will open it for edit, otherwise it gets created
+	- bash: Used to run a script, use it like this: bash <script.sh>. Very important, the file needs to be a script(have .sh)
+	- echo: The "println" we all know
+    -variables: Create a variable inside of a script like this: <variable_name>=<value>  ; note: Don't put space between name and value; to use it use $<variable_name>
+    -read from console: use "read" in script
+			

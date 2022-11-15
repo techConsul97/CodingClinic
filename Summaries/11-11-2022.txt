@@ -1,0 +1,19 @@
+Today's Sumarry:
+
+Gave as an assignment the creation of an app that needs to:
+
+1. Implement Clean Architecture (data, domain, presentation package)
+2. As for each person's judgement, decide if your use_case package has a point of being in your project
+3. Implement local caching, your preferred technology. As you use an API, Single source of Truth needs to be used
+4. Upgrade the compose version to the last stable version. Meaning you will have to look for versions compatible with it
+5. Use LiveData or Flows for data
+6. Use State instead of StateFlow
+
+
+Scope of the assignment:
+
+-Learn how to migrate projects from "old" versions of Compose to the latest ones
+-Write "clean-code" using clean architecture and Solid Principles
+-write testable code as for tests to be easily implemented
+-practice Compose, as it will replace XML in the future
+-learn flows instead of LiveData

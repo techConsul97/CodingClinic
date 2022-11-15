@@ -1,0 +1,6 @@
+Summary for today(15/11/2022):
+
+- started by taking projects one by one, to see what each person accomplished
+- discussed about some gaps encountered in them, as well as things needing "refined"
+- pointed out good and bad ways of writing code
+- we were given a project by SME as assignment in 2 weeks that needs to have some features implemented such as using Compose, Room and Retrofit with Coroutines 
